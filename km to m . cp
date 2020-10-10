@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+	float m;
+	cout<<"Convert kilometres to metres"<<endl;
+	cout<<"Enter the distance in km: ";
+	cin>>m;
+	cout<<"The distance in m is : "<<m*1000;
+	return 0;
+}
